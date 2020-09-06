@@ -1,5 +1,6 @@
 *.o
 *.tmp
+*.bak
 *~
 a.out
 .DS_Store
