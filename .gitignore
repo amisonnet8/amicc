@@ -1,7 +1,7 @@
 *.o
+*.s
+*.out
 *.tmp
-*.bak
 *~
-a.out
 .DS_Store
 amicc
