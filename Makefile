@@ -1,11 +1,13 @@
-all: amicc
+TARGET = amicc
 
-amicc: amicc.c
+all: $(TARGET)
 
-test: amicc
+$(TARGET): amicc.c
+
+test: $(TARGET)
 	./test.sh
 
 clean:
-	rm -f amicc *.o *~ *.out *.s
+	rm -f $(TARGET) *.o *~ *.out *.s
 
 .PHONY: all test clean
